@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.nav {
+    background-color: rgb(50, 50, 50);
+    display:flex;
+    justify-content: space-between;
+
+}
+.nav_container{
+    align-self: center; /*alinierea container-ului de sus*/
+    padding-right: 150px; /*spatiul din dreapta butonului*/
+}
+
+.nav_container a{
+    text-decoration: none; /*am eliminat sublinierea la home tech products*/
+    margin: 0 15px; /*spatierea dintre home tech products si buton*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.next{
+    align-items: center;
+    height: 30px;
+    display: flex;
+    background: -webkit-linear-gradient(#9400D3, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    margin: 20px 100px;
+    text-transform: uppercase;  /*transform next in NEXT*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_container button {
+    font-size: 20px; 
+    padding: 10px 20px; /*marimea butonului*/
+    transition-duration: 0.4s; /*durata schimbarii tranzitiei la apasarea butonului*/
+    background-color: rgb(255, 76, 76);
+    color: white;
+    border-radius: 5px; /*rotunjirea colturilor*/
+}
+.nav_container button:hover { /*setarile pentru cand se apasa butonul*/
+    background-color: rgb(255, 165, 165); 
+    color: black; 
+  }
